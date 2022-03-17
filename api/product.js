@@ -18,4 +18,10 @@ router.get("/", async (req, res) => {
   }
 });
 
+
+router.get("/google", async (req, res) => {
+  return res.redirect('http://google.com');
+});
+
+
 module.exports = router;
